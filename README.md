@@ -29,13 +29,25 @@ streamlit run main.py
 ```git
 streamlit run main.py -- --method openai
 ```
-
 ## 📚 Technologies Used
 - Python
 - Streamlit
 - Transformers (Hugging Face)
 - OpenAI API
 - Dash and Plotly for visualization
+
+``` Repository Structure
+AI-Gen-RAG-Bibliographic-Review-Assistant/
+├── README.md               # Project description and instructions for use
+├── requirements.txt        # Project dependencies
+├── main.py                 # Main script
+├── modules/                # Project modules
+│   ├── data_fetch.py
+│   ├── dashboard.py
+│   ├── text_summarization.py
+│   └── text_summarization_openai.py
+└── LICENSE                 # License to use
+```
 
 ## 🤝 Contributions
 Contributions are welcome! Feel free to submit pull requests or open issues.
