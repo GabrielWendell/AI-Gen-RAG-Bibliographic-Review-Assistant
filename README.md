@@ -7,11 +7,18 @@ An automated assistant for literature review using Generative AI (Gen AI) and Re
 - **BART (local)**: Uses the BART model from Hugging Face for offline generation.
 - **OpenAI GPT**: Uses the OpenAI API for abstract generation.
 
+## 💡 Features
+- **Topic Selection:** The user can type the desired research topic.
+- **Model Selection:** The user can choose between the BART (local) or OpenAI GPT (API) model.
+- **Automatic Summary:** Generation of academic summaries in a clear and objective way.
+- **Interactive Dashboard:** View articles and their summaries in a user-friendly graphical interface.
 
 ## 💻 Dashboard Demo
 See below a preview of the project interface:
+
 ![Dashboard Example 2](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/img/Dashboard.png)
-![Dashboard Example 1](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/img/Terminal.png)
+
+![Dashboard Example 1](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/img/Terminal_New_Version_Full.png)
 
 ---
 
@@ -36,10 +43,17 @@ pip install -r requirements.txt
 ```git
 streamlit run main.py
 ```
-4. To use the OpenAI version:
+4. Follow the instructions in the terminal:
+> - Enter the topic you want to search for:
 ```git
-streamlit run main.py -- --method openai
+quantum computing
+``` 
+> - Choose the summarization method: 
+```git
+1 for BART (local)
+2 for OpenAI GPT (API)
 ```
+
 ## 📚 Technologies Used
 - Python
 - Streamlit
