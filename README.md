@@ -1,8 +1,19 @@
 # AI Gen and RAG Bibliographic Review Assistant
 
+![License](https://img.shields.io/badge/license-GPLv3-blue)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-brightgreen)
+
 An automated assistant for literature review using Generative AI (Gen AI) and Retrieval Augmented by Generation (RAG) techniques. The project searches for articles in the arXiv database and generates automatic abstracts with two method options:
 - **BART (local)**: Uses the BART model from Hugging Face for offline generation.
 - **OpenAI GPT**: Uses the OpenAI API for abstract generation.
+
+
+## 💻 Dashboard Demo
+Veja abaixo uma prévia da interface do projeto:
+![Dashboard Example 1](dashboard_example1.png)
+![Dashboard Example 2](dashboard_example2.png)
+
+---
 
 ## 🚀 How to Run the Project
 ### Prerequisites
@@ -54,3 +65,6 @@ Contributions are welcome! Feel free to submit pull requests or open issues.
 
 ## 📝 License
 This project is licensed under the [GPL 3.0 License](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/LICENSE).
+
+## 🧑‍💻 Author
+This project was developed by [**Gabriel Wendell**](https://github.com/GabrielWendell) as part of a challenge for the trainee researcher selection process at Itaú.
