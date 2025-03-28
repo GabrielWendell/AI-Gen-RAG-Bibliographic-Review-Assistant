@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 def launch_dashboard(papers, summaries):
     st.title("AI Gen and RAG Bibliographic Review Assistant")
