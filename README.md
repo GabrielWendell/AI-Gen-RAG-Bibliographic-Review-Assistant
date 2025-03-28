@@ -9,9 +9,9 @@ An automated assistant for literature review using Generative AI (Gen AI) and Re
 
 
 ## 💻 Dashboard Demo
-Veja abaixo uma prévia da interface do projeto:
-![Dashboard Example 1](dashboard_example1.png)
-![Dashboard Example 2](dashboard_example2.png)
+See below a preview of the project interface:
+![Dashboard Example 2](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/img/Dashboard.png)
+![Dashboard Example 1](https://github.com/GabrielWendell/AI-Gen-RAG-Bibliographic-Review-Assistant/blob/main/img/Terminal.png)
 
 ---
 
