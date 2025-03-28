@@ -1,0 +1,11 @@
+torch
+transformers
+requests
+argparse
+beautifulsoup4
+openai==0.27.8
+streamlit
+dash
+plotly
+pandas
+numpy
